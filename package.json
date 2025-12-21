@@ -1,5 +1,5 @@
 {
-  "name": "kennethlieyanto.com",
+  "name": "kennethlieyanto",
   "private": true,
   "type": "module",
   "scripts": {
@@ -28,3 +28,4 @@
     "vite-tsconfig-paths": "^5.1.4"
   }
 }
+
