@@ -4,6 +4,17 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'app/**'
+      - 'public/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'bun.lock'
+      - 'tsconfig.json'
+      - 'vite.config.ts'
+      - 'react-router.config.ts'
+      - 'Dockerfile'
+      - '.dockerignore'
   workflow_dispatch:
 
 permissions:
