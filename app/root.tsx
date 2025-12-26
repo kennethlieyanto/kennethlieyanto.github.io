@@ -31,6 +31,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <script
+          async
+          src="https://plausible.io/js/pa-m3Zkst4pvSlouRDXUOfdV.js"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.plausible=window.plausible||function(){(plausible.q = plausible.q || []).push(arguments)},plausible.init=plausible.init||function(i){(plausible.o = i || {})};plausible.init()`
+          }}
+        />
       </head>
       <body>
         {children}
